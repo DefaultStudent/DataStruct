@@ -118,4 +118,56 @@ public class MyArray {
         }
         elements[index] = element;
     }
+
+    /**
+     * 线性查找
+     */
+    public int search(int target) {
+        // 遍历数组
+        for (int i = 0; i < elements.length; i ++) {
+            if (elements[i] == target) {
+                return i;
+            }
+        }
+        // 没有找到
+        return -1;
+    }
+
+    /**
+     * 二分查找法
+     */
+    public int binarySearch(int target) {
+        // 记录开始位置
+        int begin = 0;
+        // 记录结束位置
+        int end = elements.length - 1;
+        // 记录中间位置
+        int mid = (begin + end) / 2;
+
+        // 循环查找
+        while (true) {
+            // 什么情况下没有这个元素呢？
+            // 开始在结束位置之后或重合，没有这个元素
+            if (begin >= end) {
+                return -1;
+            }
+            // 判断中间元素是否为要查找的元素
+            if (elements[mid] == target) {
+                return mid;
+            } else {
+                // 中间元素不是要查找到元素
+                // 判断中间元素是否比目标元素大
+                if (elements[mid] > target) {
+                    // 把结束位置调整到中间位置的前一个位置
+                    end = mid - 1;
+                } else {
+                    // 中间元素比目标元素小
+                    // 把开始位置调整到中间位置的后一个位置
+                    begin = mid + 1;
+                }
+                // 取出新的中间位置
+                mid = (begin + end) / 2;
+            }
+        }
+    }
 }
