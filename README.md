@@ -4,11 +4,19 @@
 
 ## 数组
 
-- <a href = "https://github.com/DefaultStudent/DataStruct/blob/master/src/demo/TestArray.java">数组的基本使用 </a>
+- <a href = "https://github.com/DefaultStudent/DataStruct/blob/master/src/demo/">数组的基本使用 </a>
 
     - 数组的创建
     - 访问数组元素
-    - 面向对象数组
-    - 线性查找
-    - 二分查找
+- 面向对象数组
+- 线性查找
+- 二分查找
+
+## 栈
+
+- 栈的基本操作
+    - 压栈
+    - 出栈
+    - 查看栈顶元素
+    - 查看栈是否为空
     
