@@ -30,4 +30,8 @@
 ## <a href="https://github.com/DefaultStudent/DataStruct/tree/master/src/demo3">单链表</a>
 
 - 单链表的基本操作
+    - 添加一个节点
+    - 删除一个节点
+    - 显示节点信息
+    - 插入一个节点
     
