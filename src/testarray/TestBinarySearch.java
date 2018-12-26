@@ -1,4 +1,4 @@
-package demo;
+package testarray;
 
 /**
  * @author Simon

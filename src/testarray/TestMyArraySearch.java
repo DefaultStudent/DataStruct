@@ -1,6 +1,6 @@
-package demo;
+package testarray;
 
-import demo.util.MyArray;
+import testarray.util.MyArray;
 
 /**
  * @author Simon

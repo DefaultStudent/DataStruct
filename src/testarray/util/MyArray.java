@@ -1,4 +1,4 @@
-package demo.util;
+package testarray.util;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package demo3;
+package testnode;
 
 /**
  * @author Simon
